@@ -15,6 +15,10 @@
   <img src="https://github.com/tsjazil/st/blob/main/assets/banner.png"/>
 </p>
 
+## About
+
+This port offers the colors needed for ST's header files, but **not an ST build**.
+
 ## Usage
 
 1. Copy the contents of `catppuccin.h` and replace into your st build's `config.h`
