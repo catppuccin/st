@@ -22,4 +22,4 @@
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Jazil T S](https://github.com/tsjazil)
