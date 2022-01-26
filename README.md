@@ -12,20 +12,13 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/sample.png"/>
+  <img src="https://github.com/tsjazil/st/blob/main/assets/banner.png"/>
 </p>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-## 🙋 FAQ (optional)
-
-- Q: **_"Where can I find the doc?"_**
-  A: Run `:help theme`
+1. Copy the contents of `catppuccin.h` and replace into your st build's `config.h`
+2. Then `make` it in st folder
 
 ## 💝 Thanks to
 
