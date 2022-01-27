@@ -1,12 +1,11 @@
 /*
-
-Name : Catppuccin
-author : tsjazil (https://github.com/tsjazil)
-
-Soothing pastel theme for the high-spirited!
-
-
-*/
+ *
+ * Name : Catppuccin
+ * author : tsjazil (https://github.com/tsjazil)
+ * 
+ * Soothing pastel theme for the high-spirited!
+ *
+ */
 
 
 /* Terminal colors (16 first used in escape sequence) */
