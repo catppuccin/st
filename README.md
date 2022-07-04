@@ -21,8 +21,9 @@ This port offers the colors needed for ST's header files, but **not an ST build*
 
 ## Usage
 
-1. Copy the contents of `catppuccin.h` and replace into your st build's `config.h`
-2. Then `make` it in st folder
+1. Choose your flavour.
+2. Copy the contents of `flavour.h` and replace into your st build's `config.h`.
+3. Then `make install` it in st folder.
 
 ## 💝 Thanks to
 
