@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/res.webp"/>
+  <img src="assets/banner.png"/>
 </p>
 
 ## Previews
