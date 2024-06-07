@@ -34,15 +34,13 @@
 <img src="assets/mocha.webp"/>
 </details>
 
-## About
-
-This port offers the colors needed for ST's header files, but **not an ST build**.
-
 ## Usage
 
-1. Choose your flavour.
-2. Copy the contents of `flavour.h` and replace into your st build's `config.h`.
-3. Then `make install` it in st folder.
+> [!NOTE]
+> This port offers the colors needed for ST's header files, but **not an ST build**.
+
+1. Copy the contents of the flavor of your choice from [`themes/`](./themes/) into your st build's `config.h`.
+2. Then `make install` it in the st folder.
 
 ## 💝 Thanks to
 
