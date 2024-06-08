@@ -4,6 +4,7 @@ whiskers:
   matrix:
     - flavor
   filename: "themes/{{ flavor.identifier }}.h"
+  capitalize_hex: true
 ---
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
