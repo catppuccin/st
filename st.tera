@@ -1,36 +1,36 @@
 ---
 whiskers:
-  version: "2.3.0"
+  version: "^2.4.0"
   matrix:
     - flavor
   filename: "themes/{{ flavor.identifier }}.h"
-  capitalize_hex: true
+  hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
 ---
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#{{ if(cond=flavor.dark, t=surface1.hex, f=subtext1.hex) }}",
-	"#{{ red.hex }}",
-	"#{{ green.hex }}",
-	"#{{ yellow.hex }}",
-	"#{{ blue.hex }}",
-	"#{{ pink.hex }}",
-	"#{{ teal.hex }}",
-	"#{{ if(cond=flavor.dark, t=subtext1.hex, f=surface2.hex) }}",
+	"{{ if(cond=flavor.dark, t=surface1.hex, f=subtext1.hex) }}",
+	"{{ red.hex }}",
+	"{{ green.hex }}",
+	"{{ yellow.hex }}",
+	"{{ blue.hex }}",
+	"{{ pink.hex }}",
+	"{{ teal.hex }}",
+	"{{ if(cond=flavor.dark, t=subtext1.hex, f=surface2.hex) }}",
 
 	/* 8 bright colors */
-	"#{{ if(cond=flavor.dark, t=surface2.hex, f=subtext0.hex) }}",
-	"#{{ red.hex }}",
-	"#{{ green.hex }}",
-	"#{{ yellow.hex }}",
-	"#{{ blue.hex }}",
-	"#{{ pink.hex }}",
-	"#{{ teal.hex }}",
-	"#{{ if(cond=flavor.dark, t=subtext0.hex, f=surface1.hex) }}",
+	"{{ if(cond=flavor.dark, t=surface2.hex, f=subtext0.hex) }}",
+	"{{ red.hex }}",
+	"{{ green.hex }}",
+	"{{ yellow.hex }}",
+	"{{ blue.hex }}",
+	"{{ pink.hex }}",
+	"{{ teal.hex }}",
+	"{{ if(cond=flavor.dark, t=subtext0.hex, f=surface1.hex) }}",
 
-[256] = "#{{ text.hex }}", /* default foreground colour */
-[257] = "#{{ base.hex }}", /* default background colour */
-[258] = "#{{ rosewater.hex }}", /*575268*/
+[256] = "{{ text.hex }}", /* default foreground colour */
+[257] = "{{ base.hex }}", /* default background colour */
+[258] = "{{ rosewater.hex }}", /*575268*/
 
 };
 
